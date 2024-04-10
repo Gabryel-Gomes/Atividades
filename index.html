@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<h1>QUESTÃO 1</h1>
+  <h1>Calculadora de Combinação</h1>
+  <div>
+      <label for="n">Número (n):</label>
+      <input type="number" id="n" min="0">
+  </div>
+  <div>
+      <label for="k">Amostra (k):</label>
+      <input type="number" id="k" min="0">
+  </div>
+  <button id="calcular">Calcular Combinação</button>
+  <div id="output"></div>
+
+  <h1>QUESTÃO 2</h1>
+  <div class="container">
+      <input type="text" id="dateInput" placeholder="Digite a data (dd/mm/aaaa)">
+      <button onclick="calculateDays()">Calcular</button>
+  </div>
+
+  <h1>QUESTÃO 3</h1>
+
+  <div class="container">
+      <textarea id="inputText" placeholder="Digite o texto aqui"></textarea><br>
+      <textarea id="outputText" readonly></textarea><br>
+      <button onclick="inverterTexto()">Inverter</button>
+  </div>
+
+  <h1>QUESTÃO 4</h1>
+  <div class="calculator">
+      <input type="text" id="display" readonly>
+      <button onclick="addNumber(7)">7</button>
+      <button onclick="addNumber(8)">8</button>
+      <button onclick="addNumber(9)">9</button>
+      <button onclick="addOperator('+')">+</button>
+      <button onclick="addNumber(4)">4</button>
+      <button onclick="addNumber(5)">5</button>
+      <button onclick="addNumber(6)">6</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="addNumber(1)">1</button>
+      <button onclick="addNumber(2)">2</button>
+      <button onclick="addNumber(3)">3</button>
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="addNumber(0)">0</button>
+      <button onclick="addOperator('.')">.</button>
+
+  </div>
+
+
+  <h1>Questão 5</h1>
+  <div class="container">
+      <input type="text" id="dateInput" placeholder="Digite a data (dd/mm/aaaa)">
+      <button onclick="calculateDays()">Calcular</button>
+  </div>
+  <script src="script.js"> </script>
+</body>
+</html>
